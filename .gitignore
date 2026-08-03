@@ -1,6 +1,14 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+# Jetbrains
+.idea/
+*DotSettings.user
+
+# internal docs
+docs/
+doc/
+
 # Compiled Object files
 *.slo
 *.lo
@@ -48,6 +56,7 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
+!Binaries/Win64/steam_appid.txt
 Plugins/**/Binaries/*
 
 # Builds
